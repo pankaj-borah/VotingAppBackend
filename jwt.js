@@ -1,5 +1,6 @@
 const jwt = require('jsonwebtoken');
 
+
 const jwtAuthMiddleware = (req, res, next) => {
 
     // first check request headers has authorization or not
